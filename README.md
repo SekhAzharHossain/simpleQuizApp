@@ -15,7 +15,7 @@ This quiz app allows users to answer a series of questions and provides feedback
 
 ## Demo
 
-![Quiz App Demo](simplequizappjavascript.netlify.app)
+[Quiz App Live](https://simplequizappjavascript.netlify.app/)
 
 ## Getting Started
 
