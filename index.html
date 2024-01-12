@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+      <div class="info">
+        <div class="quizInfo">
+          <p>Rules</p>
+          <p>1. You have only 3 mins to answer all question</p>
+          <p>2. Only one chance will be given to answer a question</p>
+          <p>3. Once a option is selected then changes are not allowed</p>
+          <p>4. Leaving a question or wrong answer both will be rewarded 0</p>
+          <div class="startButtonDiv">
+            <button class="startButton">Start</button>
+          </div>
+        </div>
+      </div>
+    <div class="quizBox inactive">
+      <div class="quizBoxTopSection">
+        <span>Question Remaining:<input class="questionRemaining" readonly></span>
+        <span>Time Remaining:<input class="timeRemain" readonly></span>
+      </div>
+      <div class="quizBoxBody">
+        <p id="questionToDisplay">1.What is full form of HTML</p>
+        <div class="options">
+          <!-- <button class="option">Option1</button>
+          <button class="option">Option1</button>
+          <button class="option">Option1</button>
+          <button class="option">Option1</button> -->
+        </div>
+        <div class="separationLine"></div>
+        <div class="quizFooter">
+          <div class="footerRight">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resultBox inactive">
+      <h3>Result </h3>
+      <div class="totalCorrectAnswers">Correct Answers: 0</div>
+      <div class="wrongAnswers">0</div>
+      <div class="percentage">Percentage: 0%</div>
+      <button class="restart-button">Restart</button>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
